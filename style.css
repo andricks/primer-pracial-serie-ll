@@ -1,0 +1,49 @@
+
+body {
+    margin: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+  
+  .container {
+    display: grid;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  body {
+    font-size: 2px;
+    margin: 2;
+  }
+ 
+  
+  nav ul {
+    list-style: none;
+    padding: 2;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 2px;
+  }
+  
+  nav a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    transition: font-size 0.2s, color 0.2s;
+  }
+  
+  nav a:hover {
+    color: darkblue;
+    font-size: 18px;
+  }
+
+  .title {
+
+    text-align: center ;
+    font-size: 10px;
+}
